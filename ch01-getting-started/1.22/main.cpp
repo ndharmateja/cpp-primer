@@ -8,9 +8,7 @@ int main()
     {
         Sales_item item;
         while (std::cin >> item)
-        {
             sum += item;
-        }
     }
 
     std::cout << sum << std::endl;
